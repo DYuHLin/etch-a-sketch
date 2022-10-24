@@ -45,7 +45,10 @@ body{
 
 .ind__grid{
     user-select: none;
-    border: 1px solid gray;
+}
+
+.grid__line{
+    border: 0.5px solid gray;
 }
 
 .options{
