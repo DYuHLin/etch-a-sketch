@@ -84,7 +84,7 @@ button:hover{
     background-color: gray;
 }
 
-button:active{
+.active{
     background-color: black;
     color: white;
 }
