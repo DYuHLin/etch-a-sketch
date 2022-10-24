@@ -43,6 +43,11 @@ body{
     border: 1px solid black;
 }
 
+.ind__grid{
+    user-select: none;
+    border: 1px solid gray;
+}
+
 .options{
     height: 500px;
     width: 300px;
