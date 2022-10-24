@@ -65,7 +65,7 @@ body{
 input{
     margin-bottom: 16px;
     border: none;
-    height: 200px;
+    height: 100px;
     width: 100px;
     cursor: pointer;
 }

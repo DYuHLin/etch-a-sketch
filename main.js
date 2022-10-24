@@ -3,7 +3,6 @@ const colorPicker = document.getElementById("colorPicker");
 const colorBtn = document.getElementById("colorBtn"),
       eraserBtn = document.getElementById("eraserBtn"),
       clearBtn = document.getElementById("clearBtn"),
-      gridBtn = document.getElementById("gridBtn"),
       sizeBtn = document.getElementById("sizeBtn"),
       rainbowBtn = document.getElementById("rainbowBtn");
 const grid = document.getElementById("grid");
@@ -35,14 +34,12 @@ function makeGrid(size){
         cells = document.createElement("div");
         cells.classList.add("ind__grid");
         cells.classList.add("grid__line");
+        //gridBtn.onclick = cells.classList.remove("grid__line");
         cells.addEventListener('mouseover', colorFunction)
         cells.addEventListener('mousedown', colorFunction)
         grid.appendChild(cells);
     };
 
-    gridBtn.addEventListener('click', () => {
-        cells.classList.remove("grid__line");
-    });
 };
 
 //this button action allows you to set the size of the grid
