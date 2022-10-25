@@ -111,3 +111,18 @@ a{
     font-weight: 400;
     font-size: 18px;
 }
+
+@media (max-width: 650px){
+    .options{
+        width: 250px;
+    }
+
+    .grid{
+        height: 400px;
+        width: 400px;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+}
