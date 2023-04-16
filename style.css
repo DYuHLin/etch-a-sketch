@@ -15,10 +15,12 @@ body{
 .header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 60px;
     width: 100%;
     background-color: lightgray;
     padding-left: 16px;
+    padding-right: 16px;
     margin-bottom: 36px;
     box-shadow: 0 -6px 10px 10px rgba(0, 0, 0, 0.5);
 }
@@ -87,15 +89,6 @@ button:hover{
 .active{
     background-color: black;
     color: white;
-}
-
-.footer{
-    display: flex;
-    align-items: center;
-    height: 60px;
-    width: 100%;
-    background-color: lightgray;
-    padding-left: 16px;
 }
 
 i{
